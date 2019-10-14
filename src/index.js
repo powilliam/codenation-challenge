@@ -16,7 +16,7 @@ async function Start() {
     console.log('Starting Challenge!');
 
     const answerPath = path.resolve(__dirname, '..', 'private', 'answer.json');
-    const responseJSON = await getChallenge(process.env.TOKEN)
+    const responseJSON = await getChallenge();
 
     const { numero_casas, token, cifrado, decifrado, resumo_criptografico } = responseJSON;
     const convertedResponse = JSON.stringify(responseJSON)
