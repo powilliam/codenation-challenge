@@ -7,7 +7,7 @@
     "start": "ts-node-dev src/index.ts"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "caesar-salad": "^2.1.0",
     "dotenv": "^8.1.0",
     "form-data": "^2.5.1",
